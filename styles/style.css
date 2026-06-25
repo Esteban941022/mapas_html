@@ -1,0 +1,28 @@
+/*https://colorhunt.co/palette/093c5d3b75976fd1d75df8d8*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #093C5D;
+}
+nav{
+    text-align: center;
+    background-color: #3B7597;
+    padding: 8px 0;
+}
+.nav_buttom{
+    position: relative;
+    margin: 0 20px;
+    padding: 5px 12px;
+    text-decoration: none;
+    color: #5DF8D8;
+    display: inline-block;
+}
+.nav_buttom:hover{
+    border-bottom: 2px solid #6FD1D7;
+    color: #6FD1D7;
+}
