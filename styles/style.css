@@ -6,8 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
+    color: white;
     background-color: #093C5D;
+    text-align: center;
+}
+p{
+    width: 70%;
+    margin: auto;
 }
 nav{
     text-align: center;
