@@ -3,7 +3,6 @@
 *::before,
 *::after {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -11,6 +10,7 @@ body{
     color: white;
     background-color: #093C5D;
     text-align: center;
+  font-family: "Fira Sans", sans-serif;
 }
 p{
     width: 70%;
@@ -50,4 +50,42 @@ header{
     height: 700px;
     object-fit: cover;
     object-position: center bottom;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card{
+    align-content: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3B7597;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.card h3{
+    color: #5DF8D8;
+    margin: 10px 0;
+}
+.card-img{
+    border-radius: 10px;
+}
+footer{
+    background-color: #3B7597;
+    padding: 25px;
+    margin: 20px 0 0 0;
+    color: #5DF8D8;
+}
+
+ul {
+width: 40%;
+list-style-type: "\1f916";
+text-align: left;
+margin: auto;
 }
